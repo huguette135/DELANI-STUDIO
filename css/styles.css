@@ -1,0 +1,30 @@
+body {
+    font-family: segoe ui;
+}
+header{
+    background-image:url('h_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height:100vh; */
+    /* height: 70%; */
+    padding-bottom: 15%;
+    color:white;
+}
+header .main-logo {
+    margin-top: 10%;
+    margin-left: 47%;
+}
+header .welcome {
+    text-align: center;
+    margin-top: 4%;
+}
+header .subtitle {
+    text-align: center;
+    margin-top: 2%;
+}
+header .description {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 11pt;
+}
+  
