@@ -2,11 +2,11 @@ body {
     font-family: segoe ui;
 }
 header{
-    background-image:url('h_img.jpg');
+    background-image:url('h_img\ \(1\).jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* height:100vh; */
-    /* height: 70%; */
+     height:100vh; 
+     height: 70%; 
     padding-bottom: 15%;
     color:white;
 }
