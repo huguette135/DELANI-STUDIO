@@ -52,4 +52,80 @@ header .description {
     margin-top: 3%;
     text-align: center;
 }
+.portfolio {
+    margin-bottom: 5%;
+}
+.portfolio .row .col-md-3 .project-card img {
+    width: 100%;
+    padding-right: 5%;
+}
+.contact-us {
+    background-image:url('c_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 7%;
+    padding-bottom: 7%;    
+}
+.contact-us .form-control {
+    background-color: transparent;
+    border-radius: 0px;
+    color: white;
+    margin-bottom: 5%;
+    box-shadow: none;
+}
+.contact-us .btn-primary {
+    background-color: white;
+    color: #444455;
+    border-radius: 0px;
+    width: 100%;
+    border: 1px solid white;
+}
+.social-icons {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.social-icons img {
+    margin-left: 2%;
+}
+.social-icons .col-md-8 .studio-title {
+    margin-top: 5%;
+}
+
+.portfolio .project-card {
+    position: relative;
+    /* width: 50%; */
+}
+.portfolio .project-card #project-image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;    
+}
+.portfolio .project-card .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.portfolio .project-card .middle .btn-primary{ 
+    border-radius: 0px;
+    background-color: white;
+    color: #444455;
+    border: 1px solid white;
+}
+.portfolio .project-card:hover .image {
+    opacity: 0.3;
+    background-color: black;
+}
+  
+.portfolio .project-card:hover .middle {
+    opacity: 1;
+}
+  
   
